@@ -28,7 +28,7 @@ function loadPackageInfo() {
 	var form_url = current_url_path+"/packageInfo/"+urlSelfParts[1];
 	if (navigator.userAgent.search(/Cydia/) == -1) {
 		$("#showAddRepo_").show();
-		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://https://github.com/4ETH/4ETH-repo/&package="+urlSelfParts[1]);
+		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://4eth.github.io/"+urlSelfParts[1]);
 	}
 	$.ajax({
 		url: form_url,
